@@ -5,6 +5,8 @@
 }
 
 body {
+    width: 414px;
+    height: 896px;
     background-color: var(--background-color);
 }
 
@@ -31,10 +33,31 @@ body {
 }
 
 .container p {
+    width: 361;
+    height: 116;
+    left: 24px;
     font-family: Helvetica;
     vertical-align: middle;
     font-size: 1rem;
     color: var(--font-color);
+}
+
+.pictures {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.picture-container {
+    width: 173px;
+    height: 167px;
+}
+
+.pictures img {
+    width: 173px;
+    height: 167px;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .mountain {
