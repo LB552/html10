@@ -7,12 +7,13 @@
 nav img {
     display: flex;
     justify-self: flex-end;
-    margin: 0.5rem;
+    margin: 0.75rem;
 }
 
 body {
     width: 414px;
     height: 896px;
+    margin: 0 auto;
     background-color: var(--background-color);
 }
 
@@ -65,16 +66,58 @@ body {
 }
 
 .picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 173px;
     height: 167px;
     margin: 0.75rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.picture-container a {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #ffffff;
+    margin: 0;
+    padding: 1rem;
+    text-decoration: none;
 }
 
 .pictures img {
     width: 173px;
     height: 167px;
-    overflow: hidden;
     object-fit: cover;
+    position: absolute;
+}
+
+.picture-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #262626;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.picture-container:hover::before {
+    opacity: 0.8;
+}
+
+.picture-container:hover a {
+    opacity: 1;
 }
 
 .mountain {
