@@ -23,6 +23,12 @@ body {
     color: var(--font-color);
 }
 
+.container h3 {
+    font-family: Helvetica;
+    font-size: 1rem;
+    color: rgb(252, 150, 77);
+}
+
 .container h4 {
     font-family: Helvetica;
     font-weight: 700;
