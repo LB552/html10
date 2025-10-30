@@ -23,7 +23,7 @@ body {
     color: var(--font-color);
 }
 
-.container h3 {
+.container h4 {
     font-family: Helvetica;
     font-weight: 700;
     font-size: 0.75rem;
