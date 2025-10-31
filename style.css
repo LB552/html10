@@ -127,12 +127,6 @@ body {
 }
 
 .mountain-box {
-    width: 415px;
+    width: 100%;
     height: 400px;
-}
-
-@media screen and (min-width: 415px) {
-    .mountain-box {
-        width: 100vw;
-    }
 }
