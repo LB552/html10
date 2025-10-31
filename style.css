@@ -134,6 +134,12 @@ body {
     opacity: 1;
 }
 
+.secondpage-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .mountain {
     object-fit: cover;
     width: 100%;
