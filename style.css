@@ -147,3 +147,13 @@ body {
         width: 100vw;
     }
 }
+
+.x p, a {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0;
+    padding: 1rem;
+    text-decoration: none;
+}
