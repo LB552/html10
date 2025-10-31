@@ -5,7 +5,7 @@
 }
 
 nav {
-    display: grid;
+
 }
 nav img {
     display: flex;
@@ -157,10 +157,16 @@ body {
     }
 }
 
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
 }
 
 .menu a {
@@ -173,6 +179,7 @@ body {
     vertical-align: middle;
     color: #ffffff;
     text-decoration: none;
+    padding: 27px;
 }
 
 .contact-info {
@@ -182,13 +189,12 @@ body {
     line-height: 27px;
     vertical-align: middle;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 27px;
 }
-/*.x p, a {
-    font-family: Helvetica;
-    font-weight: 400;
-    font-size: 3rem;
-    
-    margin: 0;
-    padding: 1rem;
-    
-}*/
+
+footer {
+    height: 40px;
+}
