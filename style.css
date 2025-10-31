@@ -151,6 +151,12 @@ body {
     }
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .menu a {
     display: flex;
     flex-direction: column;
@@ -161,6 +167,15 @@ body {
     vertical-align: middle;
     color: #ffffff;
     text-decoration: none;
+}
+
+.contact-info {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    vertical-align: middle;
+    color: #ffffff;
 }
 /*.x p, a {
     font-family: Helvetica;
