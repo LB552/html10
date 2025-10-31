@@ -5,12 +5,9 @@
 }
 
 nav {
-
-}
-nav img {
-    display: flex;
-    justify-self: flex-end;
-    padding: 0.75rem;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
 }
 
 body {
@@ -134,12 +131,6 @@ body {
     opacity: 1;
 }
 
-.secondpage-text {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-}
-
 .mountain {
     object-fit: cover;
     width: 100%;
@@ -155,6 +146,13 @@ body {
     .mountain-box {
         width: 100vw;
     }
+}
+@media screen and (min-width: 431px) {
+    .secondpage-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
 }
 
 .menu-container {
